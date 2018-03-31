@@ -11,5 +11,7 @@
 
 .header{
   width: auto;
+  height: 5em;
   background-color: black;
+  font-family: 'Raleway', sans-serif;
 }
