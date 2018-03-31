@@ -9,9 +9,12 @@
   font-family: monospace;
 }
 
-.header{
-  width: auto;
-  height: 5em;
-  background-color: black;
-  font-family: 'Raleway', sans-serif;
+.header {
+    width: auto;
+    height: 3em;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2em;
 }
