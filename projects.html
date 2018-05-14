@@ -8,9 +8,23 @@
   <title>Vivin Thomas Wilson</title>
   <link rel="stylesheet" href="../css/styles.css"></link>
   <script type="text/javascript" src="../js/fontawesome-all.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-</head>
+  <script type="text/javascript" src="../js/main.js"></script>
 
+  <style>
+  @media only screen and (max-width: 600px) {
+      .header-title {
+        font-size:2em;
+      }
+
+      iframe{
+        width : 10em;
+        height : 8em;
+      }
+
+  }
+  </style>
+
+</head>
 <body>
   <div class="center">
 
@@ -26,19 +40,19 @@
       <table class="nav">
         <tr>
           <td>
-            <a class="nav-link" href="/index.html"><i class="fas fa-home"></i> Home </a>
+            <a id="nav_1" class="nav-link" href="/index.html"><i class="fas fa-home"></i> Home</a>
           </td>
           <td>
-            <a class="nav-link" href="https://drive.google.com/file/d/12eevFt9piovNxUtIpjUa4vurmazOuet8/view?usp=sharing"><i class="fas fa-file-alt"></i> Resume </a>
+            <a id="nav_2" class="nav-link" href="https://drive.google.com/file/d/12eevFt9piovNxUtIpjUa4vurmazOuet8/view?usp=sharing"><i class="fas fa-file-alt"></i> Resume</a>
           </td>
           <td>
-            <a class="nav-link" href="https://github.com/vivintw"><i class="fab fa-github-square"></i> Github </a>
+            <a id="nav_3" class="nav-link" href="https://github.com/vivintw"><i class="fab fa-github-square"></i> Github</a>
           </td>
           <td>
-            <a class="nav-link" href="https://www.linkedin.com/in/vivin-wilson-9b14907a/"><i class="fab fa-linkedin"></i> LinkedIn </a>
+            <a id="nav_4" class="nav-link" href="https://www.linkedin.com/in/vivin-wilson-9b14907a/"><i class="fab fa-linkedin"></i> LinkedIn</a>
           </td>
           <td>
-            <a class="nav-link" href="/projects.html"><i class="fas fa-cog"></i> Projects</a>
+            <a id="nav_5" class="nav-link" href="/projects.html"><i class="fas fa-cog"></i> Projects</a>
           </td>
         </tr>
       </table>
@@ -80,5 +94,7 @@
 
   </div>
 </body>
-
+<script>
+render_mobile()
+</script>
 </html>
